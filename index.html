@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="title" content="E-School">
+	<meta name="description" content="E-School">
+	<meta name="keywords" content="graphic design,web design,business,marketing,engineering">
+	<meta name="robots" content="index, follow">
+	<meta name="language" content="English">
+	<meta name="revisit-after" content="1 days">
+	<meta name="author" content="Aklima Akter">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>JaveScript</title>
+	<!--css links-->
+	<link rel="stylesheet"  href="css/bootstrap.css">
+	<link rel="stylesheet"  href="css/style.css">
+	<link rel="stylesheet"  href="css/media.css">
+	<!--fontawesome link-->
+	<script src="https://kit.fontawesome.com/774c334e86.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="container">
+		<!--example-1-->
+		<h2>Click the button to change the content</h2>
+		<button onclick="changeContant()" type="button" class="btn btn-warning">Change Content</button>
+		<h3 id="cc">Lorem Ipsum is simply dummy text.</h3>
+         <hr>
+
+		<!--example-2-->
+		<h2>Click the button to show the date</h2>
+		<button onclick="showDate()" type="button" class="btn btn-danger">Show Date</button>
+		<h3 id="cd">Lorem Ipsum is simply dummy text.</h3>
+           <hr> 
+
+		<!--example-3-->
+		<h2>Click the button to show the date</h2>
+		<button onclick="showDateTime()" type="button" class="btn btn-dark">Show Date Time</button>
+		<h3 id="cdt"></h3>
+		<hr>
+
+		<!--example-4-->
+		<h3>Click the button to on/off the bulb</h3>
+		<button onclick="bulbOn()" class="btn btn-danger" type="button">bulb on</button>
+		<button onclick="bulbOff()" class="btn btn-danger" type="button">bulb off</button>
+		<img id="img" src="images/boff.gif" alt="bulb">
+        <hr>
+
+        <!--example-5-->
+		<h3>Click the button to show/hide the button</h3>
+		<button onclick="textShow()" class="btn btn-danger" type="button">Show</button>
+		<button onclick="textHide()" class="btn btn-danger" type="button">Hide</button>
+		<h3 id="sh">Lorem Ipsum is simply dummy text.</h3>
+		<hr>
+
+		<!--example-6-->
+		<h2>click the button to show the result</h2>
+		<button onclick="showResult()" class="btn btn-success" type="button">Show Result</button>
+		<h3 id="sr">Result</h3>
+		<hr>
+
+		<!--example-7-->
+		<h2>click the button to show the result</h2>
+		<button onclick="showResult()" class="btn btn-dark" type="button">Show Result</button>
+		<h3 id="sr1">Result</h3>
+		<hr>
+
+		<!--example-8-->
+		  <h2 class="mb-4">Show/hide the search form</h2>
+      <div class="search">
+        <i class="fa-solid fa-magnifying-glass" onclick="showHS('s_form')" ></i>
+        <div class="form" id="s_form">
+          <form action="#">
+            <input type="search">
+            <button type="submit">submit</button>
+          </form>
+        </div>
+      </div>
+		<hr>
+
+		<!--examle 9-->
+		 <h2> Click the button to Show/Hide the content</h2>
+     <button class="btn btn-danger" onclick="toggleV('text')">Toggle Content</button>
+
+    <div id="text">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi distinctio id minima, commodi vitae ullam voluptatem officia rerum dolores voluptate debitis molestias! Asperiores consectetur sint, nobis delectus quae, ducimus enim?</p>
+    </div>
+    <hr>
+
+    <!--example-10-->
+		<h2>Click the button to change the answer</h2>
+		<button onclick="showAmount()" type="button" class="btn btn-warning">Change Content</button>
+		<h3 id="su">Lorem Ipsum is simply dummy text.</h3>
+         <hr>
+
+  </div>
+	
+
+
+<!--js links-->
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
